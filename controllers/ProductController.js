@@ -1,4 +1,4 @@
-const Product = require('../models/product.model');
+const Product = require('../models/Product');
 var count = 1;
 //Simple version, without validation or sanitation
 exports.store = (request, response) => {

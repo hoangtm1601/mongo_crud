@@ -1,6 +1,6 @@
 const port = 1234;
 const express = require('express');
-const product = require('./routes/product.route'); // Imports routes for the products
+const product = require('./routes/product'); // Imports routes for the products
 const app = express();
 app.use(express.urlencoded());
 //===============================
